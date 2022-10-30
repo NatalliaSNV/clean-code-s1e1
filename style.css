@@ -24,8 +24,10 @@ body {
 }
 
 @media (max-width:768px) {
-.header__wrap { text-align: center;
-}
+
+  .header__wrap {  text-align: center;
+  }
+
 }
 
 .main{
