@@ -4,36 +4,65 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-.aaa {
-    width: 500px;
-    margin: 0 auto;
-    display: block;
-    text-align: right;
+
+.header{
+  width: 500px;
+  display: block;
 }
-.aaa img {
+
+.header__wrap{
+  margin: 0 auto;
+  text-align: right;
+}
+
+.header img {
     width: 100%;
 }
-.aaa .more_inf {
+
+.header_font {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.header__wrap { text-align: center;
 }
 }
-.centered-main-page-element {
-    display: block;
-    width: 500px;
-    margin: 0 auto 0;
+
+.main{
+  display: block;
+  width: 500px;
+}
+
+.main__position{
+  margin: 0 auto 0;
+}
+
+.add-item {
+  display: flex;
+}
+
+.input{
+  font-size: 18px;
+  line-height: 18px;
+  height: 21px;
+  padding: 0 9px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+}
+
+.input__position{
+  flex-grow: 1;
+  margin: 0;
 }
 .task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
-.task-row-wrapper {
-    display: flex;
-}
+
 ul {
     margin:0;
     padding: 0px;
@@ -88,9 +117,9 @@ label[for="new-task"] {
     display: block;
     margin: 0 0 20px;
 }
-input#new-task {
+/* input#new-task {
     width: 318px;
-}
+} */
 
 /* Task list */
 li {
