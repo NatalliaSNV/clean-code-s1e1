@@ -9,11 +9,8 @@
 // Event handling, user interaction is what starts the code execution.
 
 var taskInput=document.querySelector(".add-item__input");//Add a new task.
-//console.log(taskInput);
 var addButton=document.getElementsByTagName("button")[0];//first button
-//console.log(addButton);
 var incompleteTaskHolder=document.getElementById("incompleted-tasks");//ul of #
-console.log(incompleteTaskHolder);
 var completedTasksHolder=document.getElementById("completed-tasks");//completed-tasks
 
 
@@ -172,9 +169,7 @@ var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
     // var editButton=taskListItem.querySelector("button.edit");
     // var deleteButton=taskListItem.querySelector("button.delete");
     var editButton=taskListItem.getElementsByTagName("button")[0];
-    console.log(editButton);
     var deleteButton=taskListItem.getElementsByTagName("button")[1];
-    console.log(deleteButton);
 
 
     //Bind editTask to edit button.
