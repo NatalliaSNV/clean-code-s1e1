@@ -6,26 +6,26 @@ ul { /* reset default styles */
 }
 
 input,
-button{ /* reset default styles */
+button { /* reset default styles */
     outline: none;
 }
 
-figure{ /* reset default styles */
+figure { /* reset default styles */
   margin: 0;
 }
 
-.page{
+.page {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
 }
 
-.header{
+.header {
   width: 500px;
   display: block;
 }
 
-.header__wrap{
+.header__wrap {
   margin: 0 auto;
   text-align: right;
 }
@@ -46,16 +46,16 @@ figure{ /* reset default styles */
 
 }
 
-.main{
+.main {
   display: block;
   width: 500px;
 }
 
-.main__wrap{
+.main__wrap {
   margin: 0 auto 0;
 }
 
-.title{
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -64,15 +64,15 @@ figure{ /* reset default styles */
   text-transform: uppercase;
 }
 
-.add-item__title{
+.add-item__title {
   margin: 0 0 20px;
 }
 
-.list__title{
+.list__title {
   margin: 0;
 }
 
-.item{
+.item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -86,7 +86,7 @@ figure{ /* reset default styles */
   display: flex;
 }
 
-.input{
+.input {
   font-size: 18px;
   line-height: 18px;
   height: 21px;
@@ -101,22 +101,22 @@ figure{ /* reset default styles */
   color: #333;
 }
 
-.add-item__input{
+.add-item__input {
   flex-grow: 1;
   margin: 0;
 }
 
-.item__input{
+.item__input {
   display: none;
   margin: 0;
   flex-grow: 1;
 }
 
-.item__input_active{
+.item__input_active {
   display: inline-block;
 }
 
-.item__name{
+.item__name {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -125,20 +125,20 @@ figure{ /* reset default styles */
     font-size: 18px;
 }
 
-.item__name_disable{
+.item__name_disable {
   display: none;
 }
 
-ul#completed-tasks .item__name{
+ul#completed-tasks .item__name {
   text-decoration: line-through;
   color: #888;
 }
 
-.item__checkbox{
+.item__checkbox {
   margin: 0 10px;
 }
 
-.button{
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -151,11 +151,11 @@ ul#completed-tasks .item__name{
   color: #3a3a3a;
 }
 
-.button__img{
+.button__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button__img:hover{
+.button__img:hover {
   transform: rotateZ(0);
 }
