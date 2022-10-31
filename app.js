@@ -21,8 +21,8 @@ var createNewTaskElement=function(taskString){
 
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
-    //label
-    var pName=document.createElement("p");//label
+    //p
+    var pName=document.createElement("p");//p
     //input (text)
     var editInput=document.createElement("input");//text
     //button.edit
@@ -166,8 +166,6 @@ var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
     console.log("bind list item events");
 //select ListItems children
     var checkBox=taskListItem.querySelector("input[type=checkbox]");
-    // var editButton=taskListItem.querySelector("button.edit");
-    // var deleteButton=taskListItem.querySelector("button.delete");
     var editButton=taskListItem.getElementsByTagName("button")[0];
     var deleteButton=taskListItem.getElementsByTagName("button")[1];
 
