@@ -5,6 +5,10 @@ ul { /* reset default styles */
   padding: 0px;
 }
 
+p { /* reset default styles */
+  margin: 0;
+}
+
 input,
 button { /* reset default styles */
     outline: none;
