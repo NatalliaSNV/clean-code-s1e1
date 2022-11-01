@@ -5,9 +5,13 @@ ul { /* reset default styles */
   padding: 0px;
 }
 
+p { /* reset default styles */
+  margin: 0;
+}
+
 input,
 button { /* reset default styles */
-    outline: none;
+  outline: none;
 }
 
 figure { /* reset default styles */
@@ -15,9 +19,9 @@ figure { /* reset default styles */
 }
 
 .page {
-    background-color: #f8f8f8;
-    color: #333;
-    font-family: Lato, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
 }
 
 .header {
@@ -35,7 +39,7 @@ figure { /* reset default styles */
 }
 
 .header__link {
-    font-family: fantasy, cursive;
+  font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
@@ -117,12 +121,12 @@ figure { /* reset default styles */
 }
 
 .item__name {
-    width: 56%;
-    display: inline-block;
-    flex-grow: 1;
-    padding-left: 10px;
-    box-sizing: border-box;
-    font-size: 18px;
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
 }
 
 .item__name_disable {
