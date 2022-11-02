@@ -133,7 +133,7 @@ figure { /* reset default styles */
   display: none;
 }
 
-ul#completed-tasks .item__name {
+#completed-tasks .item__name {
   text-decoration: line-through;
   color: #888;
 }
